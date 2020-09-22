@@ -21,9 +21,9 @@ body{
   top: 100%;
   left: 50%; 
   margin-top: 50px;
-  margin-left: -130px;
-  width: 18em;
-  height: 18em;
+  margin-left: -145px;
+  width: 17em;
+  height: 17em;
 }
 
 .zoom a img{
@@ -87,7 +87,7 @@ li>a, li>a:hover{
 
 .center{
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 
