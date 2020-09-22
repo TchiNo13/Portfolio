@@ -1,0 +1,97 @@
+body{
+    position: relative;    
+}
+
+.top {
+    height: 200px;
+    background-color: #bdc3c7;
+    background-position: center;
+    position: relative;
+    font-family: 'Kufam', cursive;
+} 
+
+/* ======================================================================== */
+/* ========== profil =========== */
+/* ======================================================================== */
+
+.imgCenter{
+  max-width:100%;
+  max-height:100%;
+  position: relative;
+  top: 100%;
+  left: 50%; 
+  margin-top: 50px;
+  margin-left: -130px;
+  width: 18em;
+  height: 18em;
+}
+
+.zoom a img{
+    transition: transform .9s;
+    border-radius: 50%;
+    box-shadow: 0 0 6px black;
+    
+}
+.zoom a img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+figcaption{
+    margin-top: 3em;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* ======================================================================== */
+/* ========== content  =========== */
+/* ======================================================================== */
+
+hr.hrClass {
+    border: 1px solid #bdc3c7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block{
+    font-size: 14px;
+    text-align: justify;  
+    padding: 10px;
+    margin: 2px;
+}
+
+.block >h4{
+    font-weight: bold;
+    color:  #bdc3c7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:15px ;
+}
+
+li>a, li>a:hover{ 
+    text-decoration: none;
+}
+
+/* ======================================================================== */
+/* ========== footer =========== */
+/* ======================================================================== */
+
+.download{
+    margin: 20px 0;
+    text-align: center; 
+    
+}
+
+.center{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
